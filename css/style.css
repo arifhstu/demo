@@ -1,0 +1,230 @@
+	/*
+		CSS Index:
+		***********************
+		0. Common Css
+		1. Header
+		3. Navbar
+		4. Banner
+		5. 
+		6. 
+		7. 
+		8. 
+		9. back to top
+		10. footer
+		***********************
+	*/
+
+
+/***********0. Common CSS Start **********/
+   
+ *{
+ margin: 0px;
+ padding: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a:hover { 
+	text-decoration: none 
+}
+/*.overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.4);
+}*/
+ /*********************0. Common CSS End***************/
+/*********************2.Header Start********************/
+header .logo{
+    margin: 0px;
+    font-size: 25px;
+    padding: 25px 0px;
+    padding-left: 63px
+}
+/*********************2.Header end********************/
+
+ /*********************2.Navbar Start********************/
+ .navbar{
+    background: #898d8e;
+    color: white;
+    padding: 0px;
+ }
+ .navbar ul{
+    padding-left: 43px;
+ }
+  .navbar li a{
+    color: white;
+    font-size: 20px;
+    /*line-height: 32px;*/
+    padding: 20px 0px;
+ }
+ .navbar li:hover{
+    background: #7d9097;
+ }
+ /*********************2. Navbar End********************/
+ 
+/*********************3.Banner Start********************/
+.banner{
+   background: url('../img/banner.png') center center/cover no-repeat;
+   min-height: 700px;
+   width: 100%;
+}
+.banner-text{
+    /*position: absolute;*/
+    /*bottom: 0px;
+    right: 130px*/;
+    padding-top: 500px;
+
+    padding-right: 100px !important;
+}
+ 
+ /*********************3.Banner End********************/
+
+ /*********************4.our-team Start********************/
+.our-team{
+    padding: 150px 0px;
+}
+.our-team-border{
+    border-bottom: 1px solid #a07661;
+    width: 400px;
+    display: inline-block;
+}
+.our-team h1{
+    font-size: 60px;
+}
+.our-team .about{
+    font-size: 14px;
+    line-height: 15px;
+    /*padding: 0px 150px;*/
+ }
+.our-team img{
+   /* width: 450px;
+    height: 570px;*/
+}
+ /*********************4. End********************/
+
+ /*********************5. counter-part Start********************/
+.counter-part{
+    padding: 100px 0px;
+    background: #1f3138;
+}
+
+.counter-part h1{
+    color: #89553b;
+
+}
+ /*********************5. End********************/
+
+ /*********************5.body img gif Start********************/
+.gif{
+     background: url('../img/banner.png') center center/cover no-repeat;
+    min-height: 1120px;
+    width: 100%;
+}
+.gif img{
+    min-height: 1120px;
+    width: 100%;
+    /*background-size: cover;
+    position: relative;
+    background-position: center;*/
+}
+ /*********************5. End********************/
+
+ /*********************6.contact Start********************/
+.contact{
+    padding: 150px 0px;
+    background: #2a3e47;
+}
+
+ /*********************6. End********************/
+
+ /*********************7.contact Start********************/
+.form-border{
+    border: none;
+    border-bottom: 1px solid #b5b6b7;
+    background: #2a3e47;
+}
+.contactbtn{
+    background: #89553b;
+}
+ 
+ /*********************7. End********************/
+
+ /*********************8. Start********************/
+.aboutus{
+   background: url('../img/body2.gif') center center/cover no-repeat;
+   padding: 150px 50px;
+}
+.aboutus-2{
+   border: 1px solid #b5b6b7;
+}
+.aboutus-2 img{
+   max-width: 100px;
+   max-height: 100px;
+   border-radius: 50%;
+}
+.extra{
+    font-size: 20px;
+}
+.team{
+    position: relative;
+    top: -3px;
+}
+ .about-img-2{
+   position: relative;
+    top: 8px;
+}
+ 
+ /*********************8. End********************/
+.icon i{
+    border: 1px solid black;
+    padding: 5px;
+}
+ 
+
+ .gallery img{
+    /*width: 500px;
+    height: 600px;*/
+ }   
+
+
+ .footerup{
+    background: #1b2c33;
+    color: #fff;
+    padding: 50px;
+ }
+ .footerup i{
+     position: relative;
+     top: 15px;
+ } 
+ .footerup{
+      border-bottom: 1px solid white;
+ } 
+ @media screen and (min-width: 768px) and (max-width: 9911px){
+
+   .footerup h4{
+       font-size: 20px;
+    }  
+}
+ 
+ 
+
+ /*********************9.back to top End********************/
+
+ /*********************10.footer Start********************/
+
+
+
+ 
+ /*********************10.footer End********************/
